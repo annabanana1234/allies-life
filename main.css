@@ -1,38 +1,75 @@
 body {
 	background-color: #6d637f
+ }
+
+section{
+clear: both;
 }
 
 h1 {
  color:#592b47;
- font-family: Comic Sans MS, cursive, sans-serif;
+ font-family: 'Dancing Script', cursive;
  font-size: 40px;
  text-align:center;
+ text-align: center;
 }
 
 h2 {
    font-size: 30px;
+	 font-family:'Dancing Script', cursive;
   color:#592b47;
-   text-align:left;
+   text-align:center;
+	 border-top-style: dotted;
+	     border-right-style: solid;
+	     border-bottom-style: dotted;
+	     border-left-style: solid;
+    padding-bottom: 6px
 }
 
 p {
 	color: #161516
 	font-size:20px;
+	font-family: 'Maven Pro', sans-serif;
+	line-height: 1.8;
+	text-align: center;
+	padding-left: 200px;
+	padding-right: 200px;
+	margin: 40px;
 }
+ img {
+ max-width: 100%
+}
+
+img.left {
+   float: left;
+  margin-right: 20px;
+	margin-bottom: 22px;
+
+}
+
+img.right {
+	float: right;
+	margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+img.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 22px;
+
+}
+
 
 h3 {
-  color: #99266d;
-  font-family:Inconsolata;
-  font-size:35px;
+  color: #822e6f;
+font-family:'Dancing Script', cursive;
+  font-size:25px;
+	text-align:200px;
+	}
 
-p {
-  font-size:45px;
+li {
+font-family: 'Maven Pro', sans-serif;
+	line-height: 3;
 }
-
-a {
-    color:#ce4685;
-}
-a:visited {
-    color:#6b84d3;
-}
-a:hover {
