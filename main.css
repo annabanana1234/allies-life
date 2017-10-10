@@ -32,8 +32,8 @@ p {
 	font-family: 'Maven Pro', sans-serif;
 	line-height: 1.8;
 	text-align: center;
-	padding-left: 200px;
-	padding-right: 200px;
+	padding-left: 300px;
+	padding-right: 300px;
 	margin: 40px;
 }
  img {
@@ -50,7 +50,8 @@ img.left {
 img.right {
 	float: right;
 	margin-left: 20px;
-  margin-bottom: 40px;
+	margin-right: 700px;
+	margin-bottom: 40px;
 }
 
 img.center {
@@ -72,4 +73,17 @@ font-family:'Dancing Script', cursive;
 li {
 font-family: 'Maven Pro', sans-serif;
 	line-height: 3;
+}
+
+a {
+  color:#ce4685;
+}
+a:visited {
+    color:#6b84d3;
+}
+a:hover {
+    color:#d6bcc8;
+}
+a:active {
+    color:#ce4685;
 }
